@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 window = tk.Tk()
 window.geometry('500x450')
-window.title('TODU')
+window.title('TUDU')
 window.config(bg='#111111')
 
 
