@@ -12,7 +12,7 @@ def aufgabe_dazu():
     aufgabe = aufgaben_eingabe.get()
 
     if aufgabe != '':
-        if aufgabe == 'Aufgabe eonggaben':
+        if aufgabe == 'Topshiriq':
             messagebox.showwarning('Error', 'Please enter settings for the window to work')
         else:
             aufgaben_liste.insert(tk.END, aufgabe)
@@ -52,13 +52,13 @@ aufgaben_eingabe.pack(pady=20)
 button_frame = tk.Frame(window)
 button_frame.pack(pady=20)
 
-aufgaben_dazu_btn = tk.Button(button_frame, text='Aufgabe hinzufugen', font=('Times', 14),
+aufgaben_dazu_btn = tk.Button(button_frame, text='Vazifa bering', font=('Times', 14),
                               bg='green', fg='white', padx=20, pady=10, command=aufgabe_dazu)
 aufgaben_dazu_btn.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
 
 
 
-aufgaben_weg_btn = tk.Button(button_frame, text='Aufgabe loschen', font=('Times', 14),
+aufgaben_weg_btn = tk.Button(button_frame, text='Vazifani ochiring', font=('Times', 14),
                               bg='red', fg='white', padx=20, pady=10, command=aufgabe_weg)
 aufgaben_weg_btn.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
 if __name__ == '__main__':
