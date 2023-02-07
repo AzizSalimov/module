@@ -43,7 +43,7 @@ name.place(x=70, y=100)
 var2 = StringVar()
 name2 = Entry(window, textvariable=var2, width=22).place(x=300, y=100)
 
-ad_btn = Button(window, text='↞↠', width=10, command=valuta).place(x=220, y=70)
+ad_btn = Button(window, text='↞↠', width=10, command=valyuta).place(x=220, y=70)
 exiT_bt = Button(window, text='Exit', command=exitt).place(x=250, y=100)
 
 window.mainloop()
