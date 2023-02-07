@@ -20,7 +20,7 @@ with open('latest (1).json') as f:
 
 
 
-def valuta():
+def valyuta():
     get = nam.get()
     get_ = chose.get(get)
     get__ = var1.get()
